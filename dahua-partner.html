@@ -29,6 +29,9 @@
 
 
 
+
+
+
   <style>
     .image-fill-container {
       height: 100%;
@@ -69,7 +72,7 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#features">Products & Services</a></li>
+          <li><a href="index.html">Products & Services</a></li>
           <!-- <li><a href="#services">Services</a></li> -->
           <li class="dropdown"><a href="#" class="active"><span>Partners</span> <i
                 class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -124,66 +127,94 @@
 
     <!-- Service Details Section -->
 
-    <div class="d-flex flex-column align-items-center section-title" data-aos="fade-up" data-aos-delay="100">
-      <br>
-      <h2>Smart Bus Solution</h2>
-      <center> <img src="assets/img/people-counting-diagram.png" alt=""></center>
-
-    </div>
-    <hr class="rounded mx-5">
-
-    <section class="service-details features section" id="features">
-
+    <section id="features" class="features section">
       <div class="container">
+        <div class="d-flex justify-content-center">
+          <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="0">
 
-        <div class="d-flex flex-row gy-5">
+            <li class="nav-item">
+              <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features1-tab-1">
+                <h4>DAHUA</h4>
+              </a>
+            </li><!-- End tab nav item -->
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100" style="margin-right: 2em;">
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features1-tab-2">
+                <h4>PROJECT</h4>
+              </a>
 
-            <div class="service-box">
-              <h4>Improved</h4>
-              <div class="services-list nav nav-tabs d-flex flex-column align-items-start" data-aos="fade-up"
-                data-aos-delay="0">
-                <a class="nav-link active show w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
-                  data-bs-toggle="tab" data-bs-target="#features-tab-1">
-                  <i class="bi bi-arrow-right-circle"></i>
-                  <span>Safety</span>
-                </a>
-                <a class="nav-link w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
-                  data-bs-toggle="tab" data-bs-target="#features-tab-2">
-                  <i class="bi bi-arrow-right-circle"></i>
-                  <span>Efficiency</span>
-                </a>
+            </li>
 
-                <a class="nav-link w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
-                  data-bs-toggle="tab" data-bs-target="#features-tab-3">
-                  <i class="bi bi-arrow-right-circle"></i>
-                  <span>Values</span>
-                </a>
-                <br>
-                <h4>People-Counting CCTV</h4>
-                <a class="nav-link w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
-                  data-bs-toggle="tab" data-bs-target="#features-tab-4">
-                  <i class="bi bi-arrow-right-circle"></i>
-                  <span>Demo Video</span>
-                </a>
 
-                <a class="nav-link w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
-                  data-bs-toggle="tab" data-bs-target="#features-tab-5">
-                  <i class="bi bi-arrow-right-circle"></i>
-                  <span>Passenger Flow Report 1</span>
-                </a>
 
-                <a class="nav-link w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
-                  data-bs-toggle="tab" data-bs-target="#features-tab-6">
-                  <i class="bi bi-arrow-right-circle"></i>
-                  <span>Passenger Flow Report 2</span>
-                </a>
+            <!-- End tab nav item -->
 
-              </div>
-            </div><!-- End Services List -->
+          </ul>
+        </div>
 
-            <!-- <div class="service-box">
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="0">
+          <div class="tab-pane fade active show" id="features1-tab-1">
+
+            <div class="d-flex flex-column align-items-center section-title" data-aos="fade-up" data-aos-delay="100">
+              <br>
+              <h2>Smart Bus Solution</h2>
+              <center> <img src="assets/img/people-counting-diagram.png" alt=""></center>
+
+            </div>
+            <hr class="rounded mx-5">
+
+            <section class="service-details features section" id="features">
+
+              <div class="container">
+
+                <div class="d-flex flex-row gy-5">
+
+                  <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100" style="margin-right: 2em;">
+
+                    <div class="service-box">
+                      <h4>Improved</h4>
+                      <div class="services-list nav nav-tabs d-flex flex-column align-items-start" data-aos="fade-up"
+                        data-aos-delay="0">
+                        <a class="nav-link active show w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
+                          data-bs-toggle="tab" data-bs-target="#features-tab-1">
+                          <i class="bi bi-arrow-right-circle"></i>
+                          <span>Safety</span>
+                        </a>
+                        <a class="nav-link w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
+                          data-bs-toggle="tab" data-bs-target="#features-tab-2">
+                          <i class="bi bi-arrow-right-circle"></i>
+                          <span>Efficiency</span>
+                        </a>
+
+                        <a class="nav-link w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
+                          data-bs-toggle="tab" data-bs-target="#features-tab-3">
+                          <i class="bi bi-arrow-right-circle"></i>
+                          <span>Values</span>
+                        </a>
+                        <br>
+                        <h4>People-Counting CCTV</h4>
+                        <a class="nav-link w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
+                          data-bs-toggle="tab" data-bs-target="#features-tab-4">
+                          <i class="bi bi-arrow-right-circle"></i>
+                          <span>Demo Video</span>
+                        </a>
+
+                        <a class="nav-link w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
+                          data-bs-toggle="tab" data-bs-target="#features-tab-5">
+                          <i class="bi bi-arrow-right-circle"></i>
+                          <span>Passenger Flow Report 1</span>
+                        </a>
+
+                        <a class="nav-link w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
+                          data-bs-toggle="tab" data-bs-target="#features-tab-6">
+                          <i class="bi bi-arrow-right-circle"></i>
+                          <span>Passenger Flow Report 2</span>
+                        </a>
+
+                      </div>
+                    </div><!-- End Services List -->
+
+                    <!-- <div class="service-box">
               <h4>People-Counting CCTV</h4>
               <div class="services-list nav nav-tabs d-flex flex-column align-items-start" data-aos="fade-up"
                 data-aos-delay="0">
@@ -195,93 +226,649 @@
                     class="bi bi-file-earmark-word"></i><span>Catalog DOC</span></a>
               </div>
             </div> -->
-            <!-- End Services List -->
+                    <!-- End Services List -->
 
-            <div class="help-box d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-headset help-icon"></i>
-              <h4>Have a Question?</h4>
-              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i>
-                <span>+639190789347</span>
-              </p>
-              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a
-                  href="mailto:contact@example.com">business@seapps-inc.com</a></p>
+                    <div class="help-box d-flex flex-column justify-content-center align-items-center">
+                      <i class="bi bi-headset help-icon"></i>
+                      <h4>Have a Question?</h4>
+                      <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i>
+                        <span>+639190789347</span>
+                      </p>
+                      <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a
+                          href="mailto:contact@example.com">business@seapps-inc.com</a></p>
+                    </div>
+
+                  </div>
+                  <div class="container">
+                    <div class="tab-content" data-aos="fade-up" data-aos-delay="0">
+                      <div class="tab-pane fade active show" id="features-tab-1">
+                        <img src="assets/img/improved-safety.png" alt="" class="img-fluid services-img">
+                        <h3>Rapid response for emergency</h3>
+                        <p style="font-size: 1.2rem;">
+                          Real-time alarm upload and manage based on GPS and audio talk
+                        </p>
+                        <h3>Convenient access on event evidence</h3>
+                        <p style="font-size: 1.2rem;">
+                          Remote playback and download of full-coverage HD videos
+                        </p>
+
+                      </div>
+                      <div class="tab-pane fade" id="features-tab-2">
+                        <img src="assets/img/improved-efficiency.png" alt="" class="img-fluid services-img">
+                        <h3>Global view of fleet</h3>
+                        <p style="font-size: 1.2rem;">
+                          The system supports remote real-time preview, playback, and tracking of all online buses
+                        </p>
+                        <h3>A clear view of the operation dashboard</h3>
+                        <p style="font-size: 1.2rem;">
+                          Includes Vehicle Online Statistics, Equipment Failure Statistics, Mileage Statistics, and Safe
+                          Driving
+                          Ranking
+                        </p>
+                        <h3>Route management</h3>
+                        <p style="font-size: 1.2rem;">
+                          The system set the prescribed area on the platform and once the vehicle is out of the area,
+                          our system
+                          will trigger the warning and send an alarm. When the control center gets the alarm, they can
+                          start
+                          audio talk with the driver to know the situation.
+                        </p>
+                      </div>
+
+                      <div class="tab-pane fade" id="features-tab-3">
+                        <img src="assets/img/improved-values.png" alt="" class="img-fluid services-img">
+                        <h3>Scheduling optimization</h3>
+                        <p style="font-size: 1.2rem;">
+                          Automatic passenger counting to provide data support for bus scheduling optimization
+                        </p>
+                        <h3>Prevent revenue lost</h3>
+                        <p style="font-size: 1.2rem;">
+                          Compares total number of passengers and fare collection
+                        </p>
+                      </div>
+
+                      <div class="tab-pane fade" id="features-tab-4">
+                        <video width="900" height="360" controls>
+                          <source src="assets/video/PeopleCounting.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+
+                      </div>
+
+                      <div class="tab-pane fade" id="features-tab-5">
+                        <img src="assets/img/Picture2.png" alt="" class="img-fluid services-img">
+
+                      </div>
+
+                      <div class="tab-pane fade" id="features-tab-6">
+                        <img src="assets/img/Picture3.png" alt="" class="img-fluid services-img">
+
+                      </div>
+
+                    </div>
+                  </div>
+
+
+
+
+                </div>
+
+              </div>
+
+            </section><!-- /Service Details Section -->
+
+
+
+          </div><!-- End tab content item -->
+
+          <div class="tab-pane fade" id="features1-tab-2">
+
+            <div class="d-flex flex-column align-items-center section-title" data-aos="fade-up" data-aos-delay="100">
+              <br>
+              <h2>Smart Classroom Solution</h2>
+              <center> <img src="assets/img/smartclassroom.png" alt=""></center>
+
             </div>
+            <hr class="rounded mx-5">
+            <section class="service-details features section" id="features">
 
-          </div>
-          <div class="container">
-            <div class="tab-content" data-aos="fade-up" data-aos-delay="0">
-              <div class="tab-pane fade active show" id="features-tab-1">
-                <img src="assets/img/improved-safety.png" alt="" class="img-fluid services-img">
-                <h3>Rapid response for emergency</h3>
-                <p style="font-size: 1.2rem;">
-                  Real-time alarm upload and manage based on GPS and audio talk
-                </p>
-                <h3>Convenient access on event evidence</h3>
-                <p style="font-size: 1.2rem;">
-                  Remote playback and download of full-coverage HD videos
-                </p>
+              <div class="container">
 
+                <div class="d-flex flex-row gy-5">
+
+                  <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100" style="margin-right: 2em;">
+
+                    <div class="service-box">
+                      <h4>Solutions</h4>
+                      <div class="services-list nav nav-tabs d-flex flex-column align-items-start" data-aos="fade-up"
+                        data-aos-delay="0">
+                        <a class="nav-link active show w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
+                          data-bs-toggle="tab" data-bs-target="#features2-tab-1">
+                          <i class="bi bi-arrow-right-circle"></i>
+                          <span>Lecture</span>
+                        </a>
+                        <a class="nav-link w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
+                          data-bs-toggle="tab" data-bs-target="#features2-tab-2">
+                          <i class="bi bi-arrow-right-circle"></i>
+                          <span>Seminar</span>
+                        </a>
+
+                        <a class="nav-link w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
+                          data-bs-toggle="tab" data-bs-target="#features2-tab-3">
+                          <i class="bi bi-arrow-right-circle"></i>
+                          <span>Hybrid</span>
+                        </a>
+                        <a class="nav-link w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
+                          data-bs-toggle="tab" data-bs-target="#features2-tab-4">
+                          <i class="bi bi-arrow-right-circle"></i>
+                          <span>Sharing</span>
+                        </a>
+                        <br>
+                        <h4>Products</h4>
+                        <a class="nav-link w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
+                          data-bs-toggle="tab" data-bs-target="#features2-tab-5">
+                          <i class="bi bi-arrow-right-circle"></i>
+                          <span>Key Products</span>
+                        </a>
+
+
+
+                      </div>
+                    </div><!-- End Services List -->
+
+                    <!-- <div class="service-box">
+              <h4>People-Counting CCTV</h4>
+              <div class="services-list nav nav-tabs d-flex flex-column align-items-start" data-aos="fade-up"
+                data-aos-delay="0">
+                <a class="nav-link w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
+                  data-bs-toggle="tab" data-bs-target="#features-tab-4"><i class="bi bi-filetype-mp4"></i><span>Demo
+                    Video</span></a>
+                <a class="nav-link w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
+                  data-bs-toggle="tab" data-bs-target="#features-tab-5"><i
+                    class="bi bi-file-earmark-word"></i><span>Catalog DOC</span></a>
               </div>
-              <div class="tab-pane fade" id="features-tab-2">
-                <img src="assets/img/improved-efficiency.png" alt="" class="img-fluid services-img">
-                <h3>Global view of fleet</h3>
-                <p style="font-size: 1.2rem;">
-                  The system supports remote real-time preview, playback, and tracking of all online buses
-                </p>
-                <h3>A clear view of the operation dashboard</h3>
-                <p style="font-size: 1.2rem;">
-                  Includes Vehicle Online Statistics, Equipment Failure Statistics, Mileage Statistics, and Safe Driving
-                  Ranking
-                </p>
-                <h3>Route management</h3>
-                <p style="font-size: 1.2rem;">
-                  The system set the prescribed area on the platform and once the vehicle is out of the area, our system
-                  will trigger the warning and send an alarm. When the control center gets the alarm, they can start
-                  audio talk with the driver to know the situation.
-                </p>
-              </div>
+            </div> -->
+                    <!-- End Services List -->
 
-              <div class="tab-pane fade" id="features-tab-3">
-                <img src="assets/img/improved-values.png" alt="" class="img-fluid services-img">
-                <h3>Scheduling optimization</h3>
-                <p style="font-size: 1.2rem;">
-                  Automatic passenger counting to provide data support for bus scheduling optimization
-                </p>
-                <h3>Prevent revenue lost</h3>
-                <p style="font-size: 1.2rem;">
-                  Compares total number of passengers and fare collection
-                </p>
-              </div>
+                    <div class="help-box d-flex flex-column justify-content-center align-items-center">
+                      <i class="bi bi-headset help-icon"></i>
+                      <h4>Have a Question?</h4>
+                      <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i>
+                        <span>+639190789347</span>
+                      </p>
+                      <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a
+                          href="mailto:contact@example.com">business@seapps-inc.com</a></p>
+                    </div>
 
-              <div class="tab-pane fade" id="features-tab-4">
-                <video width="900" height="360" controls>
-                  <source src="assets/video/PeopleCounting.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
+                  </div>
+                  <div class="container">
+                    <div class="tab-content" data-aos="fade-up" data-aos-delay="0">
+                      <div class="tab-pane fade active show" id="features2-tab-1">
 
-              </div>
+                        <h3>LECTURE SCENARIOS</h3>
+                        <p style="font-size: 1.2rem;">
+                          • Regular classroom<br>
+                          • Teaching with the help of diverse resources and tools<br>
+                        </p>
+                        <div class="d-flex flex-rows">
+                          <img src="assets/img/lecture.png" alt="" class="img-fluid services-img" width="400">
+                          <div class="d-flex flex-column" style="margin-left: 2em;">
+                            <h3>SOLUTION VALUE</h3>
 
-              <div class="tab-pane fade" id="features-tab-5">
-                <img src="assets/img/Picture2.png" alt="" class="img-fluid services-img">
+                            <p>
+                              • With DeepHub Class, teachers can prepare lessons at home, in the office, and across
+                              devices,
+                              which they can sync to the cloud automatically.<br>
+                              • The DeepHub smart whiteboard with easy-to-use education software can efficiently assist
+                              teachers in preparing and delivering their lecture sessions.
+                            </p>
+                            <img src="assets/img/lecture2.png" alt="" class="img-fluid services-img" width="400">
+                          </div>
 
-              </div>
+                        </div>
 
-              <div class="tab-pane fade" id="features-tab-6">
-                <img src="assets/img/Picture3.png" alt="" class="img-fluid services-img">
+                        <h3>SOLUTION HIGHLIGHTS</h3>
+                        <div class="container text-center">
+                          <div class="row row-cols-2">
+                            <div class="col">
+                              <img src="assets/img/solutionhighlights1.png" alt="" class="img-fluid services-img"
+                                width="400">
+                              <p>
+                                • DeepHub Class：Rich game-based activities and customized teaching resources
+                              </p>
+                            </div>
+                            <div class="col"> <img src="assets/img/solutionhighlights2.png" alt=""
+                                class="img-fluid services-img" width="400">
+                              <p>
+                                • DeepHub Class： One-click setup for various subject tools and widgets
+                              </p>
+                            </div>
+                            <div class="col"> <img src="assets/img/solutionhighlights3.png" alt=""
+                                class="img-fluid services-img" width="400">
+                              <p>
+                                • Deephub Canvas：1,000+ dynamic and engaging learning simulations
+                              </p>
+                            </div>
+                            <div class="col"> <img src="assets/img/solutionhighlights4.png" alt=""
+                                class="img-fluid services-img" width="400">
+                              <p>
+                                • File camera：Convenient files and objects demo in whiteboard to demonstrate and
+                                annotate
+                              </p>
+                            </div>
+                          </div>
+                        </div>
 
-              </div>
-
-            </div>
-          </div>
 
 
+                      </div>
+                      <div class="tab-pane fade" id="features2-tab-2">
+
+                        <h3>SEMINAR SCENARIOS</h3>
+                        <p style="font-size: 1.2rem;">
+                          • Seminar classroom<br>
+                          • Group discussion in one classroom or cross school<br>
+                        </p>
+                        <div class="d-flex flex-rows">
+                          <img src="assets/img/seminar.png" alt="" class="img-fluid services-img" width="400">
+                          <div class="d-flex flex-column" style="margin-left: 2em;">
+                            <h3>SOLUTION VALUE</h3>
+
+                            <p>
+                              • With DeepHub Board, location is no longer a barrier for seminars and meetings.<br>
+                              • Different teams can operate the canvas at the same time.<br>
+                              • Empowers brainstorming, creativity, originality, initiative etc.<br>
+                            </p>
+                            <img src="assets/img/seminar2.png" alt="" class="img-fluid services-img" width="400">
+                          </div>
+
+                        </div>
+
+                        <h3>SOLUTION HIGHLIGHTS</h3>
+
+                        <div class="d-flex flex-rows">
+
+                          <div class="d-flex flex-column" style="margin-left: 2em;">
 
 
+                            <p>
+                              • Write and edit on the whiteboard at anytime , anywhere. It supports over 200 students
+                              and over 1,000 viewers at the same time.<br>
+                              • Allows users to insert files of multiple formats, and access various media resources,
+                              websites and web-based products.<br>
+                              • Offers more than 100 pre-programmed cases and over 1,000 preset templates, making
+                              seminar collaboration more visualized and more efficient.<br>
+                              • AI assistant helps to provide more information and create more ideas as of
+                              reference.<br>
+                            </p>
+
+                          </div>
+                          <img src="assets/img/seminar3.png" alt="" class="img-fluid services-img" width="400">
+                        </div>
+                      </div>
+
+                      <div class="tab-pane fade" id="features2-tab-3">
+                        <h3>HYBRID SCENARIOS</h3>
+                        <p style="font-size: 1.2rem;">
+                          • Regular classroom<br>
+                          • Most students are in the classroom and a few students and on-line<br>
+                        </p>
+                        <div class="d-flex flex-rows">
+                          <img src="assets/img/hybrid.png" alt="" class="img-fluid services-img" width="400">
+                          <div class="d-flex flex-column" style="margin-left: 2em;">
+                            <h3>SOLUTION VALUE</h3>
+
+                            <div class="container text-center">
+                              <div class="row row-cols-2">
+                                <div class="col">
+                                  <img src="assets/img/smartclassroom.png" alt="" class="img-fluid services-img"
+                                    width="400">
+                                </div>
+                                <div class="col">
+                                  <p style="text-align: left;">Teachers can conveniently interact with both online and
+                                    offline
+                                    students.</p>
+                                </div>
+                                <div class="col"> <img src="assets/img/hybrid3.png" alt=""
+                                    class="img-fluid services-img" width="400"></div>
+                                <div class="col">
+                                  <p style="text-align: left;">Online students can interact with the content shared by
+                                    the teacher through their own devices in real time.</p>
+                                </div>
+                                <div class="col"> <img src="assets/img/hybrid4.png" alt=""
+                                    class="img-fluid services-img" width="400"></div>
+                                <div class="col">
+                                  <p style="text-align: left;">Online students can take lessons at home and interact
+                                    with teachers and classmates.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                        <br>
+                        <h3>HYBRID SCENARIOS-Small Classroom</h3>
+                        <div class="d-flex flex-rows">
+                          <img src="assets/img/hybrid5.png" alt="" class="img-fluid services-img" width="400">
+                          <div class="d-flex flex-column" style="margin-left: 2em;">
+                            <img src="assets/img/hybtid6.png" alt="" class="img-fluid services-img" width="400">
+                            <p>
+                              • Suggest to install an all-in-one USB camera and a display on the back wall;<br>
+                              • Suggest to use a speakerphone for better vocal collection.<br>
+                            </p>
+                          </div>
+
+                        </div>
+
+                        <h3>HYBRID SCENARIOS-Middle & Large Classroom</h3>
+                        <div class="d-flex flex-rows">
+                          <img src="assets/img/hybrid7.png" alt="" class="img-fluid services-img" width="400">
+                          <div class="d-flex flex-column" style="margin-left: 2em;">
+                            <img src="assets/img/hybtid6.png" alt="" class="img-fluid services-img" width="400">
+                            <p>
+                              • Suggest to install a PTZ camera at the ceiling and a display on the side wall, together
+                              with a speakerphone to collect voices.<br>
+                              • For large classrooms, two speakerphones can be cascaded with a 3.5mm audio cable to
+                              achieve better voice collecting effect<br>
+                            </p>
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                      <div class="tab-pane fade" id="features2-tab-4">
+
+                        <div class="accordion" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Sharing Scenarios
+                              </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                              data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <h3>SHARING SCENARIOS</h3>
+                                <p style="font-size: 1.2rem;">
+                                  • Regular classroom<br>
+                                  • Broadcasting or recording the class for sharing to others<br>
+                                </p>
+                                <div class="d-flex flex-rows">
+                                  <img src="assets/img/sharing.png" alt="" class="img-fluid services-img" width="400">
+                                  <div class="d-flex flex-column" style="margin-left: 2em;">
+                                    <h3>SOLUTION VALUE</h3>
+
+                                    <p>
+                                      • Cost-effective sharing and teaching solution: suitable for students to check
+                                      courses and
+                                      review after class.<br>
+                                      • Professional sharing and teaching solution: enables online students to attend
+                                      remote
+                                      classes from anywhere.<br>
+                                      • The recorded class sessions are rich resources for the online teaching
+                                      platform.<br>
+                                    </p>
+                                    <img src="assets/img/sharing2.png" alt="" class="img-fluid services-img"
+                                      width="400">
+                                    <center>
+                                      <p>Cost-effective Sharing</p>
+                                    </center>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Classic Recording & Sharing
+                              </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                              data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <h3>Classic Recording & Sharing</h3>
+
+                                <div class="d-flex flex-rows">
+                                  <img src="assets/img/sharing3.png" alt="" class="img-fluid services-img" width="400">
+                                  <div class="d-flex flex-column" style="margin-left: 2em;">
+                                    <!-- <h3>SOLUTION VALUE</h3> -->
+
+                                    <p>
+                                      • Minimal equipment for recording & sharing: only cameras and server are needed in
+                                      addition to the whiteboard<br>
+                                      • Student cameras can be added according to the size of classroom (max 2pcs) to
+                                      achieve best video & audio. (2 pcs student camera, width≥6m)<br>
+                                      • Recorder APP compatible for android system, which can connect with recorder
+                                      server, set the video configuration, start and stop the video , live video review
+                                      etc, user friendly.<br>
+                                      • Classroom cameras are embedded with dual-mic and AI Audio technology, which can
+                                      collect vocals in the classroom, adaptively reduce noise, and filter non-human
+                                      voice.
+                                    </p>
+                                    <img src="assets/img/sharing 4.png" alt="" class="img-fluid services-img"
+                                      width="400">
+
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                High-end Recording & Sharing
+                              </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                              data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <h3>High-end Recording & Sharing</h3>
+
+                                <div class="d-flex flex-rows">
+                                  <img src="assets/img/sharing5.png" alt="" class="img-fluid services-img" width="400">
+                                  <div class="d-flex flex-column" style="margin-left: 2em;">
+                                    <!-- <h3>SOLUTION VALUE</h3> -->
+
+                                    <p>
+                                      • Extra audio system (microphone, audio processor, speaker) can be added to
+                                      realize professional acoustic effect.<br>
+                                      • Wireless clip-mic for voice collecting, multiple micro channels, suitable for
+                                      further extension.<br>
+                                      • High-resolution speakers, play uncompressed audios, with full bass and soft
+                                      treble, up to 35W per speaker.<br>
+                                      • Audio processor with visualization of the whistling display function,
+                                      effectively inhibit the formation of more whistling
+                                      points, together with full-featured matrix mixing, built-in unique component
+                                      matrix adjustment function, easy to use.
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                Solution Highlights
+                              </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse"
+                              data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <h3>Solution Highlights</h3>
+
+                                <div class="d-flex flex-rows">
+                                  <img src="assets/img/sharing6.png" alt="" class="img-fluid services-img" width="350">
+                                  <img src="assets/img/sharing7.png" alt="" class="img-fluid services-img" width="350">
+
+                                </div>
+                                <div class="d-flex flex-column" style="margin-left: 2em;">
+                                  <!-- <h3>SOLUTION VALUE</h3> -->
+
+                                  <p>
+                                    • We use deep learning algorithm and intelligent application to realize real-time
+                                    accurate tracking the teaching activity to provide the students an immersive
+                                    learning experience.<br>
+                                    • Wireless clip-mic for voice collecting, multiple micro channels, suitable for
+                                    further extension.<br>
+                                    • Recording sever will also record the lesson which can be resources for on-line
+                                    learning platform. (Eco-cooperation)
+                                    <br>
+
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+
+
+
+
+
+                          </div>
+
+
+
+                          <!-- <div class="tab-pane fade" id="features2-tab-6">
+                            <img src="assets/img/Picture3.png" alt="" class="img-fluid services-img">
+
+                          </div> -->
+
+
+                        </div>
+
+
+                      </div>
+
+                      <div class="tab-pane fade" id="features2-tab-5">
+
+                        <div class="parent gap-4">
+                          <div class="div1">
+                            <a class="col-md-12 col-lg-4 img-fluid py-2" href="assets/img/keyproduct.png"
+                              data-toggle="lightbox" data-gallery="photo_gallery">
+                              <img src="assets/img/keyproduct.png" alt="random img"
+                                class="img-fluid shadow bg-white rounded">
+                            </a>
+                          </div>
+                          <div class="div2"> <a class="col-md-12 col-lg-4 img-fluid py-2"
+                              href="assets/img/keyproduct2.png" data-toggle="lightbox" data-gallery="photo_gallery">
+                              <img src="assets/img/keyproduct2.png" alt="random img"
+                                class="img-fluid shadow bg-white rounded">
+                            </a>
+                          </div>
+                          <div class="div3"> <a class="col-md-12 col-lg-4 img-fluid py-2"
+                              href="assets/img/keyproduct3.png" data-toggle="lightbox" data-gallery="photo_gallery">
+                              <img src="assets/img/keyproduct3.png" alt="random img"
+                                class="img-fluid shadow bg-white rounded">
+                            </a>
+                          </div>
+                          <div class="div4"> <a class="col-md-12 col-lg-4 img-fluid py-2"
+                              href="assets/img/keyproduct4.png" data-toggle="lightbox" data-gallery="photo_gallery">
+                              <img src="assets/img/keyproduct4.png" alt="random img"
+                                class="img-fluid shadow bg-white rounded">
+                            </a>
+                          </div>
+                          <div class="div5"> <a class="col-md-12 col-lg-4 img-fluid py-2"
+                              href="assets/img/keyproduct5.png" data-toggle="lightbox" data-gallery="photo_gallery">
+                              <img src="assets/img/keyproduct5.png" alt="random img"
+                                class="img-fluid shadow bg-white rounded">
+                            </a>
+                          </div>
+                          <div class="div6"> <a class="col-md-12 col-lg-4 img-fluid py-2"
+                              href="assets/img/keyproduct6.png" data-toggle="lightbox" data-gallery="photo_gallery">
+                              <img src="assets/img/keyproduct6.png" alt="random img"
+                                class="img-fluid shadow bg-white rounded">
+                            </a>
+                          </div>
+                        </div>
+
+                        <style>
+                          .parent {
+                            display: grid;
+                            grid-template-columns: repeat(5, 1fr);
+                            grid-template-rows: repeat(5, 1fr);
+                            grid-column-gap: 0px;
+                            grid-row-gap: 0px;
+                          }
+
+                          .div1 {
+                            grid-area: 1 / 1 / 4 / 6;
+                          }
+
+                          .div2 {
+                            grid-area: 4 / 1 / 5 / 2;
+                          }
+
+                          .div3 {
+                            grid-area: 4 / 2 / 5 / 3;
+                          }
+
+                          .div4 {
+                            grid-area: 4 / 3 / 5 / 4;
+                          }
+
+                          .div5 {
+                            grid-area: 4 / 4 / 5 / 5;
+                          }
+
+                          .div6 {
+                            grid-area: 4 / 5 / 5 / 6;
+                          }
+                        </style>
+                        <!-- <div class="row">
+                          <a class="col-md-12 col-lg-4 img-fluid py-2" href="assets/img/keyproduct.png"
+                            data-toggle="lightbox" data-gallery="photo_gallery">
+                            <img src="assets/img/keyproduct.png" alt="random img" class="img-fluid">
+                          </a>
+                          <a class="col-md-12 col-lg-4 img-fluid py-2" href="assets/img/keyproduct2.png"
+                            data-toggle="lightbox" data-gallery="photo_gallery">
+                            <img src="assets/img/keyproduct2.png" alt="random img" class="img-fluid">
+                          </a>
+                          <a class="col-md-12 col-lg-4 img-fluid py-2" href="assets/img/keyproduct3.png"
+                            data-toggle="lightbox" data-gallery="photo_gallery">
+                            <img src="assets/img/keyproduct3.png" alt="random img" class="img-fluid">
+                          </a>
+                        </div>
+                        <div class="row">
+                          <a class="col-md-12 col-lg-4 img-fluid py-2" href="assets/img/keyproduct4.png"
+                            data-toggle="lightbox" data-gallery="photo_gallery">
+                            <img src="assets/img/keyproduct4.png" alt="random img" class="img-fluid">
+                          </a>
+                          <a class="col-md-12 col-lg-4 img-fluid py-2" href="assets/img/keyproduct5.png"
+                            data-toggle="lightbox" data-gallery="photo_gallery">
+                            <img src="assets/img/keyproduct5.png" alt="random img" class="img-fluid">
+                          </a>
+                          <a class="col-md-12 col-lg-4 img-fluid py-2" href="assets/img/keyproduct6.png"
+                            data-toggle="lightbox" data-gallery="photo_gallery">
+                            <img src="assets/img/keyproduct6.png" alt="random img" class="img-fluid">
+                          </a>
+                        </div> -->
+
+                      </div>
+
+            </section><!-- /Service Details Section -->
+
+
+
+
+
+          </div><!-- End tab content item -->
         </div>
 
       </div>
 
-    </section><!-- /Service Details Section -->
+
+
+    </section>
+
 
   </main>
 
@@ -471,6 +1058,10 @@
       })();
   
     </script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
 
   <script>
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
