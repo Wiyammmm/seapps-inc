@@ -155,15 +155,257 @@
         <div class="tab-content" data-aos="fade-up" data-aos-delay="0">
           <div class="tab-pane fade active show" id="features1-tab-1">
 
-            <div class="d-flex flex-column align-items-center section-title" data-aos="fade-up" data-aos-delay="100">
+            <div class="d-flex flex-column align-items-start section-title" data-aos="fade-up" data-aos-delay="100">
               <br>
-              <h2>Smart Bus Solution</h2>
-              <center> <img src="assets/img/people-counting-diagram.png" alt=""></center>
+              <h2>ABOUT</h2>
+              <p class="text-start">Service Economy Applications, Inc. (SEAI) was incorporated by the Securities and
+                Exchange Commission of
+                the Philippines on March 27, 2018, under Company Registration No. CS 201804315. SEAI is a vibrant
+                organization composed of developers and corporate professionals from diverse backgrounds, all committed
+                to delivering innovative solutions to meet critical needs in the Philippines.
+                <br><br>
+                SEAI is dedicated to continuous growth and maintaining its leadership in the industry. Recently, the
+                company expanded through a strategic partnership with DAHUA, enabling SEAI to provide state-of-the-art
+                SMART CAMPUS IT Solutions to universities and colleges throughout the Philippines. These advanced
+                solutions help institutions improve security, streamline operations, and create a more connected
+                learning environment.
+                <br><br>
+                Extending its dedication to innovation, SEAI is now focusing on jail management. By developing advanced
+                technological solutions, SEAI aims to transform the management and operations of correctional facilities
+                in the Philippines. These innovations will streamline processes, improve security, and support
+                rehabilitation
+              </p>
+              <br><br>
+              <img src="assets/img/dahua1.png" alt="" class="object-fit-sm-contain border rounded">
+
+              <br><br>
+              <div class="w-100 d-grid gap-2 p-3">
+                <center>
+                  <a href="https://www.dahuasecurity.com/" target="_blank" class="btn btn-primary w-25 rounded-4"
+                    role="button">
+                    Learn More
+                  </a>
+                </center>
+
+              </div>
 
             </div>
             <hr class="rounded mx-5">
 
-            <section class="service-details features section" id="features">
+            <div class="d-flex flex-column align-items-center section-title" data-aos="fade-up" data-aos-delay="100">
+              <br>
+              <h2>PRODUCTS</h2>
+
+              <br><br>
+              <img src="assets/img/dahua2.png" alt="" class="object-fit-sm-contain border rounded">
+
+              <br><br>
+
+              <!-- <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/dahua-proj1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/dahua-proj2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/dahua-proj3.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div> -->
+
+              <div class="slider-container">
+                <div class="slider">
+                  <div class="slide"><img src="assets/img/dahua-proj1.png" alt="Image 1"></div>
+                  <div class="slide"><img src="assets/img/dahua-proj2.png" alt="Image 2"></div>
+                  <div class="slide"><img src="assets/img/dahua-proj3.png" alt="Image 3"></div>
+
+                </div>
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+              </div>
+              <div class="dots-container">
+                <span class="dot" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+
+              </div>
+
+              <style>
+                /* Styling for the title above the slider */
+                .slider-title {
+                  font-size: 4rem;
+                  /* Large font size for the title */
+                  margin-bottom: 20px;
+                  /* Space below the title */
+                  font-weight: 600;
+                  /* Semi-bold font weight */
+                }
+
+                /* Main container for the slider - this holds the images and navigation buttons */
+                .slider-container {
+                  position: relative;
+                  /* Allows for absolute positioning of navigation buttons */
+                  width: 100%;
+                  /* Sets the slider width to 60% of the parent container */
+                  max-width: 1000px;
+                  /* Maximum width for larger screens */
+                  overflow: hidden;
+                  /* Hides the overflow content (only one image is visible at a time) */
+                  border-radius: 10px;
+                  /* Rounds the corners of the slider */
+                  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+                  /* Adds a subtle shadow for depth */
+                }
+
+                /* Flexbox container that holds all the slides */
+                .slider {
+                  display: flex;
+                  /* Enables flexbox layout to line up slides horizontally */
+                  transition: transform 0.4s ease-in-out;
+                  /* Smooth transition when sliding between images */
+                }
+
+                /* Each individual slide - takes up full width of the container */
+                .slide {
+                  min-width: 100%;
+                  /* Each slide takes up 100% of the slider container's width */
+                  height: 450px;
+                  /* Fixed height for each slide */
+                  transition: transform 0.5s ease-in-out;
+                  /* Smooth transition when slides are changed */
+                }
+
+                /* Ensures that images fill the slide area while maintaining aspect ratio */
+                .slide img {
+                  width: 100%;
+                  /* Image width matches the slide width */
+                  height: 100%;
+                  /* Image height matches the slide height */
+                  object-fit: contain;
+                  /* Images are scaled to cover the entire slide, cropping if necessary */
+                  border-radius: 10px;
+                  /* Rounds the corners of the images to match the slider */
+                }
+
+                /* Common styling for both previous and next navigation buttons */
+                .prev,
+                .next {
+                  position: absolute;
+                  /* Absolute positioning within the slider container */
+                  top: 50%;
+                  /* Centers the button vertically */
+                  transform: translateY(-50%);
+                  /* Offsets the button position by half its height */
+                  background-color: rgba(0, 0, 0, 0.5);
+                  /* Semi-transparent black background */
+                  color: white;
+                  /* White color for the arrow icons */
+                  border: none;
+                  /* Removes default button borders */
+                  width: 40px;
+                  /* Fixed width for the buttons */
+                  height: 40px;
+                  /* Fixed height for the buttons */
+                  cursor: pointer;
+                  /* Changes the cursor to pointer on hover */
+                  z-index: 10;
+                  /* Ensures buttons appear above the slider content */
+                  border-radius: 50%;
+                  /* Makes the buttons round */
+                  transition: background-color 0.3s ease;
+                  /* Smooth transition for background color on hover */
+                  display: flex;
+                  /* Enables flexbox for centering the arrow inside the button */
+                  justify-content: center;
+                  /* Centers arrow horizontally */
+                  align-items: center;
+                  /* Centers arrow vertically */
+                  padding: 0;
+                  /* Removes any default padding */
+                }
+
+                /* Positioning the previous button to the left */
+                .prev {
+                  left: 10px;
+                  /* Positions the button 10px from the left edge */
+                }
+
+                /* Positioning the next button to the right */
+                .next {
+                  right: 10px;
+                  /* Positions the button 10px from the right edge */
+                }
+
+                /* Hover effect for navigation buttons */
+                .prev:hover,
+                .next:hover {
+                  background-color: rgba(0, 0, 0, 0.8);
+                  /* Darkens the button background on hover */
+                }
+
+                /* Container for the dot indicators below the slider */
+                .dots-container {
+                  margin-top: 20px;
+                  /* Space above the dots */
+                  display: flex;
+                  /* Enables flexbox layout for horizontal alignment */
+                  justify-content: center;
+                  /* Centers the dots horizontally */
+                  align-items: center;
+                  /* Centers the dots vertically */
+                }
+
+                /* Common styling for each individual dot */
+                .dot {
+                  height: 15px;
+                  /* Fixed height for the dots */
+                  width: 15px;
+                  /* Fixed width for the dots */
+                  margin: 0 5px;
+                  /* Spacing between the dots */
+                  background-color: rgb(0, 213, 255);
+                  /* Semi-transparent white background */
+                  border-radius: 50%;
+                  /* Makes the dots round */
+                  display: inline-block;
+                  /* Ensures dots are inline */
+                  cursor: pointer;
+                  /* Changes cursor to pointer on hover */
+                  transition: background-color 0.3s ease;
+                  /* Smooth transition for background color on hover */
+                }
+
+                /* Styling for the active dot - indicates the current slide */
+                .dot.active {
+                  background-color: rgba(0, 68, 255, 0.5);
+                  /* Solid white background for the active dot */
+                }
+              </style>
+            </div>
+
+
+
+            <!-- <section class="service-details features section" id="features">
 
               <div class="container">
 
@@ -212,21 +454,8 @@
                         </a>
 
                       </div>
-                    </div><!-- End Services List -->
-
-                    <!-- <div class="service-box">
-              <h4>People-Counting CCTV</h4>
-              <div class="services-list nav nav-tabs d-flex flex-column align-items-start" data-aos="fade-up"
-                data-aos-delay="0">
-                <a class="nav-link w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
-                  data-bs-toggle="tab" data-bs-target="#features-tab-4"><i class="bi bi-filetype-mp4"></i><span>Demo
-                    Video</span></a>
-                <a class="nav-link w-100 d-flex flex-row align-items-center gap-2 justify-content-start"
-                  data-bs-toggle="tab" data-bs-target="#features-tab-5"><i
-                    class="bi bi-file-earmark-word"></i><span>Catalog DOC</span></a>
-              </div>
-            </div> -->
-                    <!-- End Services List -->
+                    </div>
+             
 
                     <div class="help-box d-flex flex-column justify-content-center align-items-center">
                       <i class="bi bi-headset help-icon"></i>
@@ -315,7 +544,9 @@
 
               </div>
 
-            </section><!-- /Service Details Section -->
+            </section> -->
+
+            <!-- /Service Details Section -->
 
 
 
@@ -1062,7 +1293,82 @@
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+  <script>const slider = document.querySelector('.slider');
+    const slides = document.querySelectorAll('.slide');
+    const prevBtn = document.querySelector('.prev');
+    const nextBtn = document.querySelector('.next');
+    const dots = document.querySelectorAll('.dot');
+    const sliderContainer = document.querySelector('.slider-container');
 
+    let currentIndex = 0; // Tracks the current slide index
+    let autoSlideInterval; // Will hold the interval ID for auto-sliding
+
+    // Function to update the active dot indicator
+    function updateDots() {
+      dots.forEach((dot, index) => {
+        if (index === currentIndex) {
+          dot.classList.add('active');
+        } else {
+          dot.classList.remove('active');
+        }
+      });
+    }
+
+    // Function to display a specific slide based on the index
+    function showSlides(index) {
+      if (index >= slides.length) {
+        currentIndex = 0; // Reset to first slide if at the end
+      } else if (index < 0) {
+        currentIndex = slides.length - 1; // Go to last slide if at the beginning
+      } else {
+        currentIndex = index; // Otherwise, set to the provided index
+      }
+      slider.style.transform = `translateX(-${currentIndex * 100}%)`; // Slide transition
+      updateDots(); // Update the dots to reflect the current slide
+    }
+
+    // Function to move to the next slide
+    function nextSlide() {
+      showSlides(currentIndex + 1);
+    }
+
+    // Function to move to the previous slide
+    function prevSlide() {
+      showSlides(currentIndex - 1);
+    }
+
+    // Start the automatic sliding of images
+    function startAutoSlide() {
+      autoSlideInterval = setInterval(nextSlide, 4000); // Slide every 4 seconds
+    }
+
+    // Stop the automatic sliding
+    function stopAutoSlide() {
+      clearInterval(autoSlideInterval); // Clear the interval
+    }
+
+    // Add click event listeners to dots for direct slide navigation
+    dots.forEach(dot => {
+      dot.addEventListener('click', () => {
+        stopAutoSlide(); // Stop auto-slide when manually selecting a slide
+        showSlides(parseInt(dot.dataset.index)); // Show the selected slide
+        startAutoSlide(); // Restart auto-slide
+      });
+    });
+
+    // Add event listeners for navigation buttons
+    nextBtn.addEventListener('click', nextSlide);
+    prevBtn.addEventListener('click', prevSlide);
+
+    // Stop auto-slide when the mouse enters the slider container
+    sliderContainer.addEventListener('mouseover', stopAutoSlide);
+
+    // Restart auto-slide when the mouse leaves the slider container
+    sliderContainer.addEventListener('mouseout', startAutoSlide);
+
+    // Start auto-slide when the page loads
+    startAutoSlide();
+    updateDots(); // Initialize the dots</script>
   <script>
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
